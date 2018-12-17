@@ -9,6 +9,10 @@ After that, It counts how many hits (we have four areas of knowledge in this exa
 Finally, It exports a EXCEL sheet with the results and names.
 
 
+1 - You need to use only the response mirror (example attached)
+2- You need to provide the excel sheet with the right answers (example attached)
+
+
 This is just a first attempt. I intend to improve the code, as well as, pass It to Python3 and deploy It using Kivy. This code was written in dec, 2017 and from there to here I've been studying and 
 improving my skills as a programmer (I just have It as a hobby).
 
