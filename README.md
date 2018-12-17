@@ -14,7 +14,7 @@ Finally, It exports a EXCEL sheet with the results and names.
 
 
 This is just a first attempt. I intend to improve the code, as well as, pass It to Python3 and deploy It using Kivy. This code was written in dec, 2017 and from there to here I've been studying and 
-improving my skills as a programmer (I just have It as a hobby).
+improving my skills as a programmer (I just have It as a hobby). The purpose of this gitlab profile is to track my evolution over the years.
 
 It is written in matlab code. 
 
