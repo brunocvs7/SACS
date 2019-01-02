@@ -5,21 +5,36 @@ Created on Sun Dec 30 19:21:10 2018
 @author: Bruno Carlos
 """
 
+# Here I used the scipy library and misc method to read a image. 
+
+
+from mark_test import mark_test
 from scipy import misc
 import numpy as np
+import pandas as pd
+
+lang = 'E'
+
+# Reading the image
 s = misc.face()
-s = misc.imread('answers.jpg')
+s = misc.imread("answers'.jpg")
 
-
+#Catching only one dimension and transforming It to int format
 matriz = s[:,:,0]
 matriz = np.array(matriz).astype(int)
 
+#Initializing some variables
 
 cont1 = 0
 marcador = np.zeros(5)
 r = np.zeros(90)
 r = r.tolist()
-    
+# Here is the heart of this code.
+# The image has a size of 435 x 1065
+# This first for loop points to the columns of the image, so the first column we analyse is the 47th
+#After that, we look to the rows, which starts in the 15th row
+# Our study starts in the point (15,47). If you look to the image, you will see that It points to the first circle of the first question
+
 for i in np.arange(47,938,178):
         
     for x in np.arange(15,436,30):
@@ -73,4 +88,7 @@ for i in np.arange(47,938,178):
             
         cont1 = cont1 +1 
     
-       
+
+r = pd.DataFrame(r)
+
+resultado = mark_test(r, lang)
