@@ -1,6 +1,6 @@
 # SACS
 
-This is an automated system to grade exams based on the images of the response sheets.
+This is an automated system to score exams based on the images of the response sheets.
 
 Basically It takes the images of the response sheets from those who took the test and automatically identifies the painted responses and compare to the right answers.
 
